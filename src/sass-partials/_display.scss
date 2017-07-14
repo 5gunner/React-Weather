@@ -1,0 +1,78 @@
+main.loader-wrapper {
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.loader~p {
+    line-height: 3;
+    letter-spacing: .05rem
+}
+
+.loader {
+    animation: App-logo-spin infinite 1s linear;
+    display: inline-block;
+    font-size: 3.5rem;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.weather-header {
+    padding: 3.5rem 0;
+    h1 {
+        position: relative;
+        display: inline-block;
+        clear: both;
+        margin-top: 0;
+        font-size: 8rem;
+        font-weight: 700;
+        line-height: 1
+    }
+    h1 span {
+        font-size: .3em;
+        position: absolute;
+        left: 101%;
+        top: 0;
+        font-weight: bold;
+    }
+    h3 {
+        margin-top: 0;
+    }
+    h3 span {
+        font-size: 1.4rem;
+    }
+    h4 {
+        margin: 0;
+        line-height: 1.2
+    }
+}
+
+.info-title {
+    font-size: 1.2rem;
+}
+
+span.highlighted {
+    font-size: 1.2rem;
+}
+
+.btn{
+    outline: 0 !important;
+}
+
+button.save-button {
+    margin-top: 3.5rem;
+    outline: 0;
+    color: #337ab7;
+    &:focus {
+        outline: 0;
+    }
+    &:active {
+        outline: 0
+    }
+}

@@ -1,0 +1,136 @@
+body,
+html {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  color: #333; }
+
+div.App {
+  padding-top: 1rem; }
+
+p,
+input,
+button,
+a {
+  font-size: 1.4rem; }
+
+a {
+  cursor: pointer; }
+  a:focus, a:hover {
+    text-decoration: none; }
+
+nav {
+  height: auto;
+  padding: 0;
+  margin: 0; }
+
+nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+  nav ul li {
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 1.4rem; }
+  nav ul li:last-child a {
+    border-left: 2px solid #fff; }
+
+ul.navbar-nav {
+  padding: 0;
+  margin: 0; }
+
+div.navigation-wrapper {
+  padding: 0; }
+
+a.currentRoute {
+  background-color: #eee; }
+
+input {
+  border-radius: .4rem;
+  box-shadow: none;
+  border: 2px solid;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0; }
+  input:focus {
+    outline: 0;
+    border: 2px solid royalblue; }
+
+#PlacesAutocomplete__autocomplete-container {
+  border-color: transparent !important;
+  background-color: white !important;
+  z-index: 99999; }
+
+button.form-control {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: white;
+  background-color: #333;
+  border: none; }
+
+a.current-location {
+  margin-bottom: .2rem;
+  display: inline-block; }
+  a.current-location i.fa {
+    margin-right: .2rem; }
+
+main.loader-wrapper {
+  text-align: center;
+  padding-top: 7rem; }
+
+.loader ~ p {
+  line-height: 3;
+  letter-spacing: .05rem; }
+
+.loader {
+  animation: App-logo-spin infinite 1s linear;
+  display: inline-block;
+  font-size: 3.5rem; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.weather-header {
+  padding: 3.5rem 0; }
+  .weather-header h1 {
+    position: relative;
+    display: inline-block;
+    clear: both;
+    margin-top: 0;
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 1; }
+  .weather-header h1 span {
+    font-size: .3em;
+    position: absolute;
+    left: 101%;
+    top: 0;
+    font-weight: bold; }
+  .weather-header h3 {
+    margin-top: 0; }
+  .weather-header h3 span {
+    font-size: 1.4rem; }
+  .weather-header h4 {
+    margin: 0;
+    line-height: 1.2; }
+
+.info-title {
+  font-size: 1.2rem; }
+
+span.highlighted {
+  font-size: 1.2rem; }
+
+.btn {
+  outline: 0 !important; }
+
+button.save-button {
+  margin-top: 3.5rem;
+  outline: 0;
+  color: #337ab7; }
+  button.save-button:focus {
+    outline: 0; }
+  button.save-button:active {
+    outline: 0; }

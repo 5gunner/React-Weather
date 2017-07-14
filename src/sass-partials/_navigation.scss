@@ -1,0 +1,33 @@
+nav {
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    li {
+        width: 50%;
+        float: left;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    li:last-child a{
+        border-left: 2px solid #fff;
+    }
+}
+
+ul.navbar-nav{
+    padding: 0;
+    margin: 0;
+}
+
+div.navigation-wrapper{
+    padding: 0;
+}
+
+a.currentRoute{
+    background-color: #eee;
+}
