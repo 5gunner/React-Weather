@@ -13,7 +13,7 @@ class App extends Component {
         <div className="App container-fluid">
           <div className="col-sm-4 col-sm-offset-4 col-xs-12">
             <Navigation />
-            <Route exact path="/" component={Search} />
+              <Route exact path="/" component={Search} />
             <Route path="/saved" component={Saved} />
           </div>
         </div>

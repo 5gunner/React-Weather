@@ -1,4 +1,3 @@
-import { StoreWeather } from "../actions";
 import { fetchWeather } from "../shared";
 
 const WeatherReducer = (state = {}, action) => {
@@ -14,7 +13,7 @@ function getCurrentLocationWeather() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
   } else {
-    throw "Geolocation is not supported by this browser.";
+    throw ("Geolocation is not supported by this browser.");
   }
 }
 

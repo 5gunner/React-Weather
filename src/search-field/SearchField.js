@@ -3,7 +3,6 @@ import PlacesAutocomplete, {
   geocodeByAddress,
   getLatLng
 } from "react-places-autocomplete";
-import { weatherIcons, Countries } from "../shared";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { StoreWeather } from "../actions";

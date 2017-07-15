@@ -61,7 +61,7 @@ span.highlighted {
     font-size: 1.2rem;
 }
 
-.btn{
+.btn {
     outline: 0 !important;
 }
 
@@ -74,5 +74,67 @@ button.save-button {
     }
     &:active {
         outline: 0
+    }
+}
+
+.remove-place {
+    box-shadow: none;
+    opacity: .3;
+    transition: opacity .3s ease;
+    background-color: white;
+    background-image: none;
+    &:hover,
+    &:active {
+        background-color: white;
+    }
+}
+
+.list-places:hover .remove-place {
+    opacity: 1;
+}
+
+.fade-appear {
+    opacity: 0.1;
+    transform: scale(.7);
+}
+
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: all .4s ease-in;
+}
+
+.slideIn-appear.slideIn-appear-active {
+    animation: slideIn .3s ease-in-out forwards;
+}
+
+.slideOut-leave.slideOut-leave-active {
+    animation: slideOut .3s ease-in-out forwards;
+}
+
+.panel,
+.list-group {
+    box-shadow: none;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: .2;
+        transform: translateY(2rem)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(2rem)
     }
 }

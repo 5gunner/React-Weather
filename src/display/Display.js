@@ -25,12 +25,10 @@ export class Display extends Component {
                 {weatherData.weather[0]["main"]}
               </span>
             </h3>
-            <h1>
-              <b>
+              <h1>
                 {weatherData.main.temp}
-              </b>
-              <span>&#x2103;</span>
-            </h1>
+                <span>&#x2103;</span>
+              </h1>
             <h3>
               {weatherData.name}, {weatherData.country}
             </h3>
